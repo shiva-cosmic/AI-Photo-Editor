@@ -13,11 +13,12 @@ import {
   UserButton,
 } from '@clerk/nextjs'
 import { Button } from "./ui/button";
+import { useStoreUser } from "@/hooks/use-store-user";
 
 const Header = () => {
 
   const path = usePathname();
-
+  const { isLoading } = useStoreUser();
 
 
 
