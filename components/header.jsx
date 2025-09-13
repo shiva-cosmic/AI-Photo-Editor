@@ -21,6 +21,11 @@ const Header = () => {
   const { isLoading } = useStoreUser();
 
 
+  if (path.includes("/editor")){
+    return null; // Header Ko Hide Krne k liye Editor Page Se
+  }
+
+
 
 
   return (
