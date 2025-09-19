@@ -1,3 +1,5 @@
+// This Code Will Connect Convex to clerk
+
 import { useUser } from "@clerk/clerk-react";
 import { useConvexAuth } from "convex/react";
 import { useEffect, useState } from "react";
@@ -37,3 +39,4 @@ export function useStoreUser() {
     isAuthenticated: isAuthenticated && userId !== null,
   };
 }
+
