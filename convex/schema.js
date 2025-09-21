@@ -30,9 +30,29 @@ export default defineSchema({
     userId: v.id("users"),
 
     // Canvas Dimension and state
-
     canvasState: v.any(), // Fabric.js canvas JSON (Objects, layer etc.)
     width: v.number(), //Canvas width in pixels
     height: v.number(), // Canvas Height in Pixels
-  }),
+
+    // Image pipline - tracks image transformations
+    originalImageUrl: v.optional(v.string()), //Initial uploaded image
+    currentImageUrl: v.optional(v.string()), // Current processed image
+    thumbnailUrl: v.optional(v.string()), // Small preeview for dashboard
+
+    // ImageKit transformation state
+    activeTransformations: v.optional(v.string()), //Current ImageKit URL params
+
+    // AI features state - tracks what AI processing has been applied
+    backgroundRemoved: v.optional(v.boolean()), //Has background been removed
+
+    // Organization
+    folderId: v.optional(v.id("folders")), //HW- Optional folder organization
+
+    //  Timestamps
+    createdAt: v.number(),
+    updatedAt: v.number(), //Last edit time
+  })
+    .index("by_user", ["userId"])
+    .index("by_user_updated", ["userId", "updatedAt"])
+    .index("by_folder", ["folderId"]), // Project in folder
 });
