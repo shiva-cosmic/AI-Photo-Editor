@@ -23,4 +23,16 @@ export default defineSchema({
     .index("by_email", ["email"])
     .searchIndex("search_name", { searchField: "name" }) // For User Search
     .searchIndex("search_email", { searchField: "email" }),
+
+  project: defineTable({
+    //Basic Project Info
+    title: v.string(),
+    userId: v.id("users"),
+
+    // Canvas Dimension and state
+
+    canvasState: v.any(), // Fabric.js canvas JSON (Objects, layer etc.)
+    width: v.number(), //Canvas width in pixels
+    height: v.number(), // Canvas Height in Pixels
+  }),
 });
