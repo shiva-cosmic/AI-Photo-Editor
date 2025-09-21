@@ -55,4 +55,18 @@ export default defineSchema({
     .index("by_user", ["userId"])
     .index("by_user_updated", ["userId", "updatedAt"])
     .index("by_folder", ["folderId"]), // Project in folder
+
+  folders: defineTable({
+    name: v.string(), //Folder name
+    userId: v.id("users"), //Owner
+    createdAt: v.number(),
+  }).index("by_user", ["userId"]), // User's folders
 });
+
+/*
+PLAN LIMITS EXAMPLE:
+-Free : 3 projects, 20 exports/month, basic features only
+
+- Pro : Unlimited project/exports, all AI features
+
+*/
