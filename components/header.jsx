@@ -80,17 +80,9 @@ const Header = () => {
                <Button variant="glass" className="hidden sm:flex">
                 <LayoutDashboard className="h-4 w-4"/>
                 <span className="hidden md:flex">Dashboard</span>
-
                </Button>
+               
               </Link>
-
-
-
-
-
-
-
-
               <UserButton 
               appearance={
                 {
