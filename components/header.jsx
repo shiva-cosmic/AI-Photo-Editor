@@ -58,27 +58,6 @@ const Header = () => {
         </Link>
         
         </div>)}
-      {path ==="/" && (<div className="hidden md:flex space-x-6">
-        <Link
-        href="#features"
-        className="text-white font-medium transition-all duration-300 hover:text-cyan-400 cursor-pointer"
-        >
-        Features
-        </Link>
-        <Link
-        href="#features"
-        className="text-white font-medium transition-all duration-300 hover:text-cyan-400 cursor-pointer"
-        >
-        Pricing
-        </Link>
-        <Link
-        href="#features"
-        className="text-white font-medium transition-all duration-300 hover:text-cyan-400 cursor-pointer"
-        >
-        Contact
-        </Link>
-        
-        </div>)}
 
 
 
