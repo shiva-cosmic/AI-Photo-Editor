@@ -48,9 +48,6 @@ const FloatingShapes = () => {
       style={{
         transform: `translateY(${scrollY * 0.5}px) rotate(${scrollY* 0.1}deg)`,
       }}
-      style={{
-        transform: `translateY(${scrollY * 0.5}px) rotate(${scrollY* 0.1}deg)`,
-      }}
       
       
       
