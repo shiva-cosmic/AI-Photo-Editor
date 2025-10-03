@@ -2,10 +2,20 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-      Home Page <br />
-      <Button variant="primary">Button</Button>
-      <Button variant="glass">Button</Button>
+    <div className="pt-36">
+      {/* Hero */}
+      {/* stats */}
+      {/* features */}
+      {/* pricing */}
+
+      <section>
+        <div>
+          <h2>
+            Ready to
+            <span>Create Something Amazing?</span>
+          </h2>
+        </div>
+      </section>
     </div>
   );
 }
