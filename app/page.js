@@ -8,10 +8,6 @@ export default function Home() {
       {/* stats */}
       {/* features */}
       {/* pricing */}
-      {/* Hero */}
-      {/* stats */}
-      {/* features */}
-      {/* pricing */}
 
       <section className="py-20 text-center">
         <div className="max-w-4xl mx-auto px-6">
