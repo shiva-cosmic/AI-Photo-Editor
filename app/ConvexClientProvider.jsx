@@ -10,5 +10,7 @@ export function ConvexClientProvider({ children }) {
   
   useAuth={useAuth}
   
+  useAuth={useAuth}
+  
   >{children}</ConvexProviderWithClerk>;
 }
