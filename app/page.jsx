@@ -1,10 +1,12 @@
+import HeroSection from "@/components/hero";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="pt-36">
+    <div >
       {/* Hero */}
+      <HeroSection/>
       {/* stats */}
       {/* features */}
       {/* pricing */}
