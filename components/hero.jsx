@@ -37,12 +37,6 @@ useEffect(()=> {
         </Button>
 
         </div>
-
-
-
-
-
-
       </div>
     </div>
   </section>
