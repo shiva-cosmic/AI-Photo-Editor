@@ -31,7 +31,6 @@ useEffect(()=> {
         <div className='flex flex-col sm:flex-row gap-6 justify-center items-center mb-12'>
         <Link href="/dashboard">
         <Button variant = "primary" size="xl"> Start Creating</Button>
-        <Button variant = "primary" size="xl"> Start Creating</Button>
         </Link>
         <Button variant="glass" size="xl">
           Watch Demo
