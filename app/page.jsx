@@ -18,6 +18,9 @@ export default function Home() {
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               Create Something Amazing?
             </span>
+            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              Create Something Amazing?
+            </span>
             <p className="text-xl text-gray-300 mb-8">
               Join thousands of creators who are already using AI to transform
               their images and bring vision to life.
