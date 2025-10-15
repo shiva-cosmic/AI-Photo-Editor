@@ -9,6 +9,8 @@ import { Button } from './ui/button';
 const HeroSection = () => {
   const [textVisible, setTextVisible] = useState(false);
   const [demoHovered, setDemoHovered] = useState(false)
+  const [textVisible, setTextVisible] = useState(false);
+  const [demoHovered, setDemoHovered] = useState(false)
 
 useEffect(()=> {
   const timer = setTimeout(() => setTextVisible(true), 500);
