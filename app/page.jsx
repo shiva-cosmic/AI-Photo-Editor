@@ -26,6 +26,9 @@ export default function Home() {
               <Button variant="primary" size="xl">
                 🌟 Start Creating Now
               </Button>
+              <Button variant="primary" size="xl">
+                🌟 Start Creating Now
+              </Button>
             </Link>
           </h2>
         </div>
