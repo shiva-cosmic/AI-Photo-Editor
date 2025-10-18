@@ -21,8 +21,6 @@ export default function Home() {
             <p className="text-xl text-gray-300 mb-8">
               Join thousands of creators who are already using AI to transform
               their images and bring vision to life.
-              Join thousands of creators who are already using AI to transform
-              their images and bring vision to life.
             </p>
             <Link href="/dashboard">
               <Button variant="primary" size="xl">
