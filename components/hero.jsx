@@ -26,6 +26,7 @@ useEffect(()=> {
           <span className='text-white'>Without Limits</span>
         </h1>
         <p className='text-xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed'>Professional image editing powered by AI. Crop, resize, adjust color, remove backgrounds and enhance your image with cutting-edge technology.</p>
+        <p className='text-xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed'>Professional image editing powered by AI. Crop, resize, adjust color, remove backgrounds and enhance your image with cutting-edge technology.</p>
 
 
         <div className='flex flex-col sm:flex-row gap-6 justify-center items-center mb-12'>
