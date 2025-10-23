@@ -26,11 +26,6 @@ useEffect(()=> {
           <br />
           <span className='text-white'>Without Limits</span>
         </h1>
-        <h1 className='text-6xl md:text-9xl font-black mb-6 tracking-tight'>
-          <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent animate-pulse">Create</span>
-          <br />
-          <span className='text-white'>Without Limits</span>
-        </h1>
         <p className='text-xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed'>Professional image editing powered by AI. Crop, resize, adjust color, remove backgrounds and enhance your image with cutting-edge technology.</p>
 
 
