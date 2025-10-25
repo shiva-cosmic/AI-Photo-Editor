@@ -17,8 +17,8 @@ useEffect(()=> {
 },[]);
 
  return (
-  // <section className="min-h-screen flex items-center justify-center relative overflow-hidden" >
-  <section className="py-25 flex flex-col items-center justify-center relative overflow-hidden">         
+   // <section className="py-25 flex flex-col items-center justify-center relative overflow-hidden">         
+   <section className="min-h-screen flex items-center justify-center relative overflow-hidden" >
     <div className='text-center z-10 px-6'>
       <div className={`transition-all duration-1000 ${textVisible? "opacity-100 translate-y-0": "opacity-0 translate-y-10"}`}>
         <h1 className='text-6xl md:text-9xl font-black mb-6 tracking-tight'>
