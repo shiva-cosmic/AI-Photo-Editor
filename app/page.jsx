@@ -3,6 +3,15 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Home() {
+const stats = [
+    { label: "Images Processed, value: 10000, suffix: "+"}
+    { label: "Images Processed, value: 10000, suffix: "+"}
+    { label: "Images Processed, value: 10000, suffix: "+"}
+    { label: "Images Processed, value: 10000, suffix: "+"}
+      
+  ];
+
+
   return (
     <div className="pt-36" >
       {/* Hero */}
