@@ -69,10 +69,6 @@ useEffect(()=> {
                   { icon: "📐", label: "Resize" },
                   { icon: "🎨", label: "Adjust" },
                   { icon: "🤖", label: "AI Tools" },
-                  { icon: "✂️", label: "Crop" },
-                  { icon: "📐", label: "Resize" },
-                  { icon: "🎨", label: "Adjust" },
-                  { icon: "🤖", label: "AI Tools" },
                 ].map((tool, index) => (
                   <div
                     key={index}
