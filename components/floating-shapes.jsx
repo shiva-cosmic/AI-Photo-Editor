@@ -33,12 +33,6 @@ const FloatingShapes = () => {
       position: "bottom-1/3 right-1/4",
       gradient:"from-green-400 to-cyan-500",
     },
-    {
-      id:4,
-      size:"w-80 h-80",
-      position: "bottom-1/3 right-1/4",
-      gradient:"from-green-400 to-cyan-500",
-    },
 
   ];
 
