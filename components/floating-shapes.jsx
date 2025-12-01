@@ -26,6 +26,10 @@ const FloatingShapes = () => {
       size:"w-64 h-64",
       position:"bottom-20 left-1/4",
       gradient:"from-purple-500 to-pink-500",
+      id:3,
+      size:"w-64 h-64",
+      position:"bottom-20 left-1/4",
+      gradient:"from-purple-500 to-pink-500",
     },
     {
       id:4,
