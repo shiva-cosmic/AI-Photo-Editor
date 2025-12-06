@@ -85,6 +85,10 @@ useEffect(()=> {
                 <div className="w-full h-48 bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 rounded-2xl shadow-2xl shadow-blue-500/50 flex items-center justify-center">
                   <div className="text-white font-bold">Your Canvas</div>
                 </div>
+              <div className="flex items-center justify-center">
+                <div className="w-full h-48 bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 rounded-2xl shadow-2xl shadow-blue-500/50 flex items-center justify-center">
+                  <div className="text-white font-bold">Your Canvas</div>
+                </div>
               </div>
             </div>
           </div>
