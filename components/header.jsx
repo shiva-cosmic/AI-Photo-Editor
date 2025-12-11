@@ -69,9 +69,6 @@ const Header = () => {
               <SignUpButton>
                 <Button variant="primary">Get Started</Button>
               </SignUpButton>
-              <SignUpButton>
-                <Button variant="primary">Get Started</Button>
-              </SignUpButton>
             </Unauthenticated>
             <Authenticated>
               <Link href="/dashboard">
