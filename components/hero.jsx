@@ -50,6 +50,8 @@ useEffect(()=> {
           } ${demoHovered ? "transform scale-105 rotate-y-6" : ""}`}
           onMouseEnter={() => setDemoHovered(true)}
           onMouseLeave={() => setDemoHovered(false)}
+          onMouseEnter={() => setDemoHovered(true)}
+          onMouseLeave={() => setDemoHovered(false)}
           style={{ perspective: "1000px" }}
         >
           <div className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl p-6 transform-gpu">
