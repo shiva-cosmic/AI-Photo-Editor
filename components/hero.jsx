@@ -36,6 +36,9 @@ useEffect(()=> {
         <Button variant="glass" size="xl">
           Watch Demo
         </Button>
+        <Button variant="glass" size="xl">
+          Watch Demo
+        </Button>
 
         </div>
       </div>
