@@ -36,10 +36,6 @@ const FloatingShapes = () => {
     },
 
   ];
-
-
-
-
   
   return (
     <div className='fixed inset-0 overflow-hidden pointer-events-none'>{shapes.map((shape)=>{
