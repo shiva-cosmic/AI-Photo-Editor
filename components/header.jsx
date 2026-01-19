@@ -66,9 +66,6 @@ const Header = () => {
               <SignInButton>
                 <Button variant="glass" className="hidden sm:flex">Sign In</Button>
               </SignInButton>
-              <SignInButton>
-                <Button variant="glass" className="hidden sm:flex">Sign In</Button>
-              </SignInButton>
               <SignUpButton>
                 <Button variant="primary">Get Started</Button>
               </SignUpButton>
