@@ -50,13 +50,6 @@ const Header = () => {
         >
         Pricing
         </Link>
-        </Link>
-        <Link
-        href="#features"
-        className="text-white font-medium transition-all duration-300 hover:text-cyan-400 cursor-pointer"
-        >
-        Pricing
-        </Link>
         <Link
         href="#features"
         className="text-white font-medium transition-all duration-300 hover:text-cyan-400 cursor-pointer"
