@@ -23,11 +23,6 @@ function DropdownMenuTrigger({
 }) {
   return (<DropdownMenuPrimitive.Trigger data-slot="dropdown-menu-trigger" {...props} />);
 }
-function DropdownMenuTrigger({
-  ...props
-}) {
-  return (<DropdownMenuPrimitive.Trigger data-slot="dropdown-menu-trigger" {...props} />);
-}
 
 function DropdownMenuContent({
   className,
