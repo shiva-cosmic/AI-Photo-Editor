@@ -23,6 +23,11 @@ function SelectValue({
 }) {
   return <SelectPrimitive.Value data-slot="select-value" {...props} />;
 }
+function SelectValue({
+  ...props
+}) {
+  return <SelectPrimitive.Value data-slot="select-value" {...props} />;
+}
 
 function SelectTrigger({
   className,
