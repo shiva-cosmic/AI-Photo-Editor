@@ -13,6 +13,9 @@ const HeroSection = () => {
 useEffect(()=> {
   const timer = setTimeout(() => setTextVisible(true), 500);
   return () => clearTimeout(timer);
+useEffect(()=> {
+  const timer = setTimeout(() => setTextVisible(true), 500);
+  return () => clearTimeout(timer);
 
 },[]);
 
