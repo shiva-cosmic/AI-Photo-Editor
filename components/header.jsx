@@ -70,14 +70,6 @@ const Header = () => {
                 <Button variant="primary">Get Started</Button>
               </SignUpButton>
             </Unauthenticated>
-          <Unauthenticated >
-              <SignInButton>
-                <Button variant="glass" className="hidden sm:flex">Sign In</Button>
-              </SignInButton>
-              <SignUpButton>
-                <Button variant="primary">Get Started</Button>
-              </SignUpButton>
-            </Unauthenticated>
             <Authenticated>
               <Link href="/dashboard">
                <Button variant="glass" className="hidden sm:flex">
