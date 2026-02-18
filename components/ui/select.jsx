@@ -17,11 +17,6 @@ function SelectGroup({
 }) {
   return <SelectPrimitive.Group data-slot="select-group" {...props} />;
 }
-function SelectGroup({
-  ...props
-}) {
-  return <SelectPrimitive.Group data-slot="select-group" {...props} />;
-}
 
 function SelectValue({
   ...props
