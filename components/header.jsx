@@ -90,6 +90,26 @@ const Header = () => {
               }
               />
             </Authenticated>
+            <Authenticated>
+              <Link href="/dashboard">
+               <Button variant="glass" className="hidden sm:flex">
+                <LayoutDashboard className="h-4 w-4"/>
+                <span className="hidden md:flex">Dashboard</span>
+
+               </Button>
+               
+               
+              </Link>
+              <UserButton 
+              appearance={
+                {
+                  elements:{
+                    avatarBox: "w-8 h-8",
+                  },
+                }
+              }
+              />
+            </Authenticated>
             </div>
             
             {isLoading && (
