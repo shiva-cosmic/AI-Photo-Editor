@@ -38,14 +38,6 @@ export default function RootLayout({ children }) {
                 {children}
               </main>
             </ConvexClientProvider>
-            <ConvexClientProvider>
-              <Header />
-              <main className="bg-slate-900 min-h-screen text-white overflow-x-hidden">
-                <FloatingShapes />
-                <Toaster richColors />
-                {children}
-              </main>
-            </ConvexClientProvider>
           </ClerkProvider>
         </ThemeProvider>
       </body>
