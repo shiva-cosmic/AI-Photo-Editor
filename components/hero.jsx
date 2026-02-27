@@ -79,21 +79,6 @@ useEffect(()=> {
                     <div className="text-xs text-gray-400">{tool.label}</div>
                   </div>
                 ))}
-                {[
-                  { icon: "✂️", label: "Crop" },
-                  { icon: "📐", label: "Resize" },
-                  { icon: "🎨", label: "Adjust" },
-                  { icon: "🤖", label: "AI Tools" },
-                ].map((tool, index) => (
-                  <div
-                    key={index}
-                    className="backdrop-blur-lg bg-white/5 rounded-xl p-4 text-center hover:bg-white/10 transition-all cursor-pointer"
-                    title={tool.label}
-                  >
-                    <div className="text-2xl mb-1">{tool.icon}</div>
-                    <div className="text-xs text-gray-400">{tool.label}</div>
-                  </div>
-                ))}
               </div>
 
               <div className="flex items-center justify-center">
